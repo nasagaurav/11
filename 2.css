@@ -1,0 +1,12 @@
+img
+{
+	width: 100%;
+	transition: 3s;
+}
+img:hover
+{
+	/*filter: grayscale(100%);	*/
+	/*filter: sepia(100%);	*/
+	/*filter: hue-rotate(360deg);	*/
+	filter: blur(10px);	
+}

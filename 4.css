@@ -1,0 +1,66 @@
+*
+{
+	margin: 0;
+}
+
+
+.team
+{
+	text-align: center;
+}
+.team .flex
+{
+	display: flex;
+}
+.team .flex .item
+{
+	position: relative;
+	overflow: hidden;
+	margin: 1%;
+	box-shadow: 0 10px 10px black;
+}
+.team .flex .item img
+{
+	width: 100%;
+}
+.team .flex .item .overlay
+{	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 0, 0, 0.4);
+	top: 0;
+	left: 0;
+	color: white;
+	transition: 0.5s;
+	/*transform: translateX(100%);*/
+	transform: translateY(100%);
+}
+.team .flex .item .overlay h4
+{
+	margin: 10px;
+}
+.team .flex .item .overlay h5
+{
+	margin: 10px;
+}
+.team .flex .item .overlay button
+{
+	margin: 10px;
+}
+.team .flex .item .overlay .fa
+{
+	margin: 10px;
+}
+
+.team .flex .item:hover .overlay
+{
+	/*transform: translateX(0%);*/
+	transform: translateY(0%);
+}
+
+
+
+
+
+

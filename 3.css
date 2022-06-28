@@ -1,0 +1,92 @@
+.box
+{
+	font-family: arial;
+	border: 1px solid black;
+	display: inline-table;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	background: slateblue;
+	transition: 1s;
+}
+
+.box h3
+{
+	transition: 0.3s;
+	letter-spacing: 3x;
+	width: 200px;
+	overflow: auto;
+	height: 50px;
+}
+.box h2
+{
+	transition: 0.5s;
+	color: red;
+}
+.box p
+{
+	background: black;
+	color: white;
+	padding: 10px;
+	transition: 0.3s;
+}
+.box button
+{
+	transition: 2s;
+	padding: 10px 40px;
+	border: 0;
+	border-radius: 100px;
+}
+
+.box strong
+{
+	transition: 3s;
+	color: white;
+}
+
+
+.box:hover
+{
+	box-shadow: 0 10px 10px black;
+}
+
+.box:hover h3
+{
+	letter-spacing: 5px;
+}
+
+.box:hover h2
+{
+	color: white;
+}
+
+.box:hover p
+{
+	background: white;
+	color: black;
+	box-shadow: 0 0 10px black;
+}
+
+.box:hover button
+{
+	background: black;
+	color: white;
+}
+
+.box:hover strong
+{
+	letter-spacing: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

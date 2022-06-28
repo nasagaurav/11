@@ -1,0 +1,75 @@
+body
+{
+	padding: 100px;
+}
+button
+{
+	background: black;
+	color: white;
+	border: 0;
+	outline: 0;
+	padding: 10px 50px;
+	border-radius: 100px;
+}
+
+.animation1
+{
+
+	animation: nasa1 0.3s infinite  linear;
+}
+.animation2
+{
+	animation-name: nasa2;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+}
+.animation3
+{
+	animation-name: nasa3;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+}
+
+.animation4
+{
+	animation: nasa4 4s infinite alternate;
+}
+.animation5
+{
+	animation: nasa5 0.4s infinite alternate;
+}
+
+@keyframes nasa1
+{
+	from {transform: translateY(50%);}
+	to {transform: translateY(-50%);}
+}
+
+@keyframes nasa2
+{
+	from {transform: translateX(10px);}
+	to {transform: translateX(-10px);}
+}
+@keyframes nasa3
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+@keyframes nasa4
+{
+	0%{transform: translate(100%,0%);}
+	25%{transform: translate(100%,100%);}
+	50%{transform: translate(0%,100%);}
+	75%{transform: translate(0%,0%);}
+	100%{transform: translate(-50%,-50%);}
+}
+
+
+@keyframes nasa5
+{
+	from{transform: scale(1.0);background: red;letter-spacing: 10px;}
+	to{transform: scale(1.5);background: yellow;box-shadow: 0 10px 4px black;}
+}
+
+
+
